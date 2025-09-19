@@ -1,0 +1,96 @@
+/* fundo da página */
+body {
+    background-color: #f0f4f8; /* azul clarinho */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* títulos */
+h1, h2 {
+    color: #0d6efd; /* azul do Bootstrap */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 8px;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    border-color: #5c636a;
+}
+
+/* Tabela de alunos */
+table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+thead {
+    background-color: #0d6efd;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Formulários */
+form.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Campos do formulário alinhados e uniformes */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Botões com mesmo tamanho */
+.w-45 {
+    width: 48%;
+}
+
+/* Card do formulário */
+form.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
